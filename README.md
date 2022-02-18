@@ -1,47 +1,48 @@
 # Leetcode Study Guide
 
+This guide aims to *comprehensively* prepare you for Leetcode (algorithms/data structures) interviews. 
 
 ## Prerequisite Knowledge
-- What is an array, matrix, linked list, hash table?
-  - For each of these, what happens when you add, remove, and select an item?
-- What is a stack, heap, graph, and tree?
-  - Know the time complexity for adding, removing, and selecting an item
+- Learn these data structures: array, linked list, hash table, matrix, stack, heap, graph, tree.
+  - For each of these, what happens conceptually when you add, remove, and select an item?
 - Big-O notation
-  - Time and space complexity. 
-  - For example, a “for” loop takes O(n) time; an array takes O(n) space.
+  - Know both time and space complexity
+  - For example, a “for” loop takes O(n) time. An array takes O(n) space.
+  - For each of the above data structures, learn the time complexity of adding, removing, and selecting an item 
 - Sorting algorithms
   - Bubble sort, insertion sort, selection sort, merge sort, quick sort
-  - Know and understand how they work
-  - Know the time and space complexity for each
+  - Know and understand how they work, and the time and space complexity for each
 
 ## Study Guide
-Taken from [Danny’s Discord group](https://discord.com/channels/739845668582981683/739845892579786822/942949178055733298) & slightly modified.
+Taken from [Danny’s Discord group](https://discord.com/channels/739845668582981683/739845892579786822/942949178055733298) & modified.
 
 **Consistency.** These problems are conceptually difficult and take time for our brains to digest. Doing 1 problem a day for a month is superior to doing 30 problems in 3 days. Also, focus on learning the problem-solving techniques, rather than memorizing specific problems.
 
-**Practice problems on CodeWars/HackerRank/TopCoder/Project Euler/LeetCode/etc/etc.** This is super-common advice. But that's because it's good advice. However, it's also just the start...
+**One step at a time.** Do the Easy problems first. It might take two hours to finish your first Easy problem, or you might just give up and look at the solution. That's okay. Once you can do Easy in about 5 minutes, start on Medium. Repeat. But don't worry about Hard, you probably won't ever need it.
 
-**Start with the basics.** Before even starting with LeetCode, understand the basic data structures and algorithms. Arrays, linked lists, hash tables: How do they work and what happens when you add, remove, or look for an item? How do sorting algorithms work (bubble sort, merge sort, etc)? Once you learn these, do the Easy problems in various categories, then once you can do those in about 5 minutes, do Medium. You probably won't ever need Hard in your life.
+**RTFM.** Read the docs/spec for your programming language of choice. Learn how common data structures are implemented. Learn how libraries are implemented. Learn default settings and how they might affect performance. The more expertise you have in your chosen language, the more impressed your interviewers will be. **Note: Most interviews today are done in Python, regardless of the language used on the job, because it is concise and easy to learn.**
 
-**RTFM.** Read the docs/spec for your programming language of choice. Learn how common data structures are implemented. Learn how libraries are implemented. Learn default settings and how they might affect performance. The more expertise you have in your chosen language, the more impressed your interviewers will be. **Note: Most interviews today are done in Python, because it is concise and easy to learn.**
+**Draw it out.** It can help to use a pen and paper to draw diagrams. (For some data structures like linked lists, drawing out diagrams **really** helps.)
 
 **Practice thinking out loud.** While you're doing coding problems, practice explaining your approach (out loud). Explain why you're making the choices you are and why you're not making other choices.
 
 **Practice iterating on your solution.** Once you solve a problem, before you look at others' solutions, look at your own solution with a critical eye. How could it be made "better"? Could it be made more readable? More efficient? Shorter? Better organized? Better variable names? Lots of these work against each other, so play around with different paths and see what feels best to you. Practice justifying your choices out loud.
 
-**Read others' solutions.** Once you submit your solution, most sites will show you other users' solutions. Don't just go to the next problem. Spend at least a few minutes reading others' solutions and understanding them. Think of whether their solution is better or worse than yours. 
+**Read others' solutions.** Once you submit your solution, most sites will show you other users' solutions. Don't just go to the next problem. Spend at least a few minutes reading others' solutions and understanding them. Think of whether their solution is better or worse than yours. Also, make sure that your solution has the best time and space complexity possible - sometimes this isn't obvious.
 
-**Practice coding without an IDE.** Stay away from the "run my code" button when solving problems if you can. Be 90% sure your code will run properly before you submit.
+**Test your code without an IDE.** Stay away from the "run my code" button when solving problems if you can. One way to be confident your code will work is to run through a test case or two (again, out loud). Pick test data that's short enough to get through in <5 minutes, but still exercises each branch of your code. Use multiple simple cases when needed. Finally, briefly discuss edge cases and how your code will handle them. For example, if the input is an array of integers, what happens if the array is empty? Or only contains one single element? What about all positives, all negatives, all 0s, max and min integers?
 
-**Come up with test cases.** One way to be confident your code will work is to run through a test case (again, out loud). Pick test data that's short enough to get through in <5 minutes, but still exercises each branch of your code. Use multiple simple cases when needed.
+**Analyze the runtime of your solution.** Determine the Big-O complexity of your code, for both time and space.
 
-**Analyze the runtime of your solution.** Most companies will expect you to provide a big-O analysis of your code (both time and space complexity). It's a huge area of study, but if you can gain an understanding of it, it'll unlock doors for you.
-
-**Time yourself.** Once you've done a few problems, simulate the time pressure in an interview. Most interviews will require you to completely finish the problem in about 30 minutes. Keep checking the clock to make sure you're pacing yourself properly.
+**Time yourself and pace yourself.** Once you've done a few problems, simulate the time pressure in an interview. Most interviews will require you to completely finish the problem in about 30 minutes, but clarify this beforehand. Keep checking the clock to make sure you're pacing yourself properly. Here's how you can utilize the 30 minutes:
+- Spend the first 5 minutes clarifying the problem and how it should handle edge cases.
+- Then spend up to 15 minutes on the algorithm, discussing the approach with your interviewer.
+- Only once you're certain of what to write, spend 5 minutes coding the solution.
+- Spend the last 5 minutes on test cases and fixing bugs.
 
 
 ## Practice Problems
-Source: https://us.teamblind.com/s/OaM1orEU
+Source: https://us.teamblind.com/s/OaM1orEU. Remember, do the Easy ones first.
 
 ### Array
 
